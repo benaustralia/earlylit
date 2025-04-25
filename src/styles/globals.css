@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Vic';
+  src: url('/fonts/VICCURSI.TTF') format('truetype');
+  font-weight: normal; /* or 400 */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vic';
+  src: url('/fonts/Vicmorg_.ttf') format('truetype');
+  font-weight: 300; /* Assuming light is weight 300 */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vic';
+  src: url('/fonts/Vicmob__.ttf') format('truetype');
+  font-weight: bold; /* or 700 */
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ... rest of your globals.css ... */ 
